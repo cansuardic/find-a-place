@@ -4,7 +4,7 @@ import http from "./http-common";
 class VenueDataService {
   listAllVenues(token) {
     let http = axios.create({
-      baseURL: "http://localhost:3000/api",
+      baseURL: "https://mekanbul-v2.vercel.app/api",
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json;charset=UTF-8",
